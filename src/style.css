@@ -26,11 +26,10 @@ a:hover{
   color:#00832c ;
 }
 
-img:hover{
+.git:hover{
   border-radius: 50px;
   box-shadow: 0 0 10px var(--dark);
 }
-
 
 .header
 {

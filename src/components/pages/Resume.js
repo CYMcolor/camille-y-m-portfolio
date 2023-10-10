@@ -1,6 +1,7 @@
 import React from 'react';
 import  resume from '../../assets/resume.docx'
 export default function Resume() {
+  //target attribute tells where to open downloaded document
   return (
     <div className='page'>
       <h2>Resume</h2>
@@ -66,4 +67,3 @@ export default function Resume() {
     </div>
   );
 }
-//target attribute tells where to open downloaded document
