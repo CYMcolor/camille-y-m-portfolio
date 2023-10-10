@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-
-export default function Header() {
+import Nav from './Nav';
+export default function Header({ currentPage, handlePageChange }) {
 
   return (
     <div className='header'>
       <h1>Camille MacLaren</h1>  
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
     </div>
   );
 }
