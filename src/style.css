@@ -1,0 +1,284 @@
+.nav-item{
+    margin: 5px;
+}
+:root /*make variables*/
+{
+    /*color pallete*/
+  --light: #d6b9ed;
+  --mainColor: #b66bcd;
+  --dark: #2c123c;
+  --darkGreen: #016e0c;
+  --lightGreen: #7fad47;
+  --greyish: #d9cae0;
+}
+
+* /*universal selector*/
+{
+  color: var(--dark);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-wrap: break-word;
+}
+
+body > * /*all direct children of body*/
+{
+
+  line-height: 1.5;  
+}
+
+h2, h3
+{
+  padding: 5px 0 5px 0;
+  text-align: center;
+}
+
+h2
+{
+  font-size: 25px;
+}
+
+h3
+{
+  font-size: 20;
+}
+
+p
+{
+   text-indent: 30px;
+   margin-bottom: 10px;
+   padding-right: 40px;
+   padding-left: 40px;
+}
+
+.header
+{
+  background-image: linear-gradient(var(--mainColor),var(--light), var(--mainColor));
+  padding: 40px; 
+  width: 100%;
+
+}
+
+.header nav
+{
+
+  margin-right: 20px;
+  margin-top: 5px;
+  float: right;
+  
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li 
+{
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.header nav ul li :hover
+{
+  color: var(--darkGreen);
+  text-decoration: underline;
+}
+
+p
+{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.header h1:after /*The owl mascot*/
+{
+  --owlSize: 90px;
+  content: "";
+  background-image: url("./assets/images/owl-mascot.png");
+  background-size: var(--owlSize);
+  height: var(--owlSize);
+  width: var(--owlSize);
+  position: absolute;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top:  -33px; 
+  
+}
+
+
+main
+{
+  background-image: linear-gradient(var(--light),var(--greyish));
+  padding: 40px;
+}
+
+
+.boxes
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.main-work img
+{
+  height: 400px;
+  width: 600px;
+
+}
+
+.other-work img
+{
+  height: 200px;
+  width: 300px;
+  
+}
+
+.custom-card
+{
+  display: flex;
+  flex-direction: column;
+  margin:  20px;
+  text-align: center;
+}
+
+.custom-card img
+{
+  border: 5px solid var(--lightGreen);
+  border-radius: 30px;
+}
+
+.custom-card img:hover
+{
+  box-shadow: 0 0 10px var(--dark);
+}
+
+#contact h2
+{
+  text-align: left;
+  font-size: 15px;
+}
+
+#contact ul li
+{
+  display:inline-flex;
+  margin-right: 20px;
+  padding-left: 5px;
+  border-left: 5px solid var(--darkGreen);
+  margin-bottom: 10px; 
+}
+
+#contact ul li a:hover
+{
+  color: var(--darkGreen);
+  text-decoration: underline;
+}
+
+.footer
+{
+  background-image: linear-gradient(var(--mainColor),var(--light), var(--mainColor));
+  padding: 10px; 
+  width: 100%;
+}
+
+#signature
+{
+  max-height: 60px;
+  max-width: 250px;
+}
+
+#feather
+{
+  max-height: 85px;
+  max-width: 20px;
+  transform: rotate(45deg);
+  margin-top: -10px;
+}
+/* Screen size responsiveness code*/
+
+@media screen and (max-width: 768px) /*screen is less than 768*/
+{
+  main, header
+  {
+    font-size: 75%;
+  }
+
+  main
+  {
+    padding: 10px;
+  }
+
+  p
+  {
+    padding: 10px;
+  }
+  
+  .header h1:after /*Smaller owl mascot*/
+  {
+    --new-owl: 60px;
+    background-size: var(--new-owl);
+    height: var(--new-owl);
+    width: var(--new-owl);
+    margin-top:  -20px; 
+  
+  }
+  
+  .cutsom-card
+  {
+    height: 80%;
+    width: 80%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .custom-card img
+  {
+    border: 3px solid var(--lightGreen);
+    height: 90%;
+    width: 90%;
+  }
+
+  #signature, #feather
+  {
+    height: 70%;
+    width: 70%;
+  }
+  
+}
+
+
+/*not avaible page*/
+.na
+{
+  min-height: 100vh; 
+}
+
+.na p
+{
+  padding: 0;
+  text-indent: 0;
+}
+.na h2
+{
+  text-align: left;
+}
+
+#owl-shock
+{
+  height: 200px;
+  width: 200px;
+}
+@media screen and (max-width: 768px) /*screen is less than 768*/
+{
+  #owl-shock
+  {
+    height: 50%;
+    width: 50%;
+  }
+}

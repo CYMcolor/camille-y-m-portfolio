@@ -6,6 +6,7 @@ import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import './App.css';
+import './style.css';
 import React, { useState } from 'react';
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
         }
         return <Resume/>;
     };
-    
+
     const handlePageChange = (page) => setCurrentPage(page);
 
     return(
