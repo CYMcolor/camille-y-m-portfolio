@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 export default function Header() {
-  //const [currentPage, setCurrentPage] = useState('Home');
 
   return (
     <div className='header'>
