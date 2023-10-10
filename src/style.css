@@ -16,6 +16,17 @@
   word-wrap: break-word;
 }
 
+a{
+  text-decoration: none;
+  color: var(--dark);
+}
+
+a:hover{
+  text-decoration: underline;
+  color:#00832c ;
+}
+
+
 .header
 {
   background-image: linear-gradient(var(--mainColor),var(--light), var(--mainColor));
@@ -53,31 +64,42 @@
 .page
 {
   background-image: linear-gradient(var(--light),var(--greyish));
-  min-height: calc(100vh - 200px); 
+  min-height: calc(100vh - 220px); 
   padding: 40px;
 }
+.boxes
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
-.work img
+.thumbnail
 {
   height: 200px;
   width: 300px;
   border: 5px solid var(--lightGreen);
   border-radius: 30px;
+  
+}
+
+.work
+{
   display: flex;
   flex-direction: column;
   margin:  20px;
   text-align: center;
 }
 
-.work img:hover
+.thumbnail:hover
 {
   box-shadow: 0 0 10px var(--dark);
 }
 
 .footer
 {
-  background-image: linear-gradient(var(--mainColor),var(--light), var(--mainColor));
-  padding: 10px; 
+  background-image: linear-gradient(var(--mainColor),var(--light));
+  padding: 30px; 
   width: 100%;
 }
 
@@ -85,6 +107,7 @@
 {
   max-height: 60px;
   max-width: 250px;
+  float: right;
 }
 
 #feather
@@ -93,6 +116,16 @@
   max-width: 20px;
   transform: rotate(45deg);
   margin-top: -10px;
+  float: right;
+}
+
+footer ul li
+{
+  display:inline-flex;
+  margin-right: 20px;
+  padding-left: 5px;
+  border-left: 5px solid var(--darkGreen);
+   
 }
 
 @media screen and (max-width: 768px) /*screen is less than 768*/
