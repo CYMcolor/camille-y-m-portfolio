@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 
-
-export default function PortfolioContainer() {
+export default function Header() {
   //const [currentPage, setCurrentPage] = useState('Home');
 
   return (
-    <div>
-      test app
+    <div className='header'>
+      <h1>Camille MacLaren</h1>  
     </div>
   );
 }
