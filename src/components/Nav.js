@@ -4,7 +4,7 @@ export default function Nav({ currentPage, handlePageChange }) {
 
   return (
     <nav className='nav'>
-        <ul className="nav nav-tabs">
+        <ul className="nav">
             <li className="nav-item">
                 <a
                 href="#about"

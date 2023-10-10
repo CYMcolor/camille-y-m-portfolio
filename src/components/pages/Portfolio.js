@@ -1,30 +1,29 @@
 import React from 'react';
-import test from '../../assets/images/cards/fore-hire.jpg'
 
+import Work from './Work'
 export default function Portfolio() {
   const works = [
     {
       name: 'Web Hunters',
       url: 'https://polar-eyrie-61739-9351be926493.herokuapp.com/',
-      img: '../../assets/images/fore-hire.jpg',
+      img: require('../../assets/images/cards/fore-hire.jpg'),
       alt: "Red for hire sign"
     },
     { 
-      name: 'Web Hunters',
-      url: 'https://polar-eyrie-61739-9351be926493.herokuapp.com/',
-      img: '../../assets/images/fore-hire.jpg',
-      alt: "Red for hire sign"
+      name: 'Travel Agent App',
+      url: 'https://coridane.github.io/travelagentapp/',
+      img: require('../../assets/images/cards/travel.PNG'),
+      alt: "magnifiyng glass over the globe"
     }
   ];
 
   return (
-    <div>
+    <div className='page'>
       <h2>Portfolio</h2>
-      <p className='other-work custom-card'>
-        test image
-        <img src={test}>
-      </img>
-      </p>
+      {
+        works.map((work) => (
+          <Work data={work} />
+      ))}
     </div>
   );
 }

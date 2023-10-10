@@ -6,7 +6,7 @@ import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import './App.css';
-import './style.css';
+
 import React, { useState } from 'react';
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return(
-        <div className='Page'>
+        <div className='main'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
             <Footer/>
