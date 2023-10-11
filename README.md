@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Camille-Y-M-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description/Link
+This is a website for a Camille MacLaren's portfolio.  
 
-## Available Scripts
+Link to deployed site: https://cymcolor.github.io/camille-y-m-portfolio/
 
-In the project directory, you can run:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-### `npm start`
+## Installation
+Download code from the GitHub repository. Have Node.js installed. Link to Node.js downloads: https://nodejs.dev/en/download/. Then in the terminal install all the npm packages by inputting npm install. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create react app by running npm create-react-app {directory-name}.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Usage
+This porfolio contains an About Me, Portfolio, Contact, and Resume page. The About Me page gives a bio of the owner. The Porfolio page that contains the owner's works. The user can click on the thumbnail of the work to be taken to the deployed site or they can click on the Github logo next to the works name to be taken to the work's Github repo page. The Conact page is a form which the user can input a name, an email, and a message. This site currently does not have an API functionality, so the form submission will do nothing. The Resume page will show the owner's resume and a button that will allow ther user to download the owner's resume.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Screenshot of About Me page: 
 
-### `npm run build`
+![the about me page](./src/assets/repo-images/about.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Screenshot of Portfolio page: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![the portfolio page](./src/assets/repo-images/portfolio.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+ This application is covered under MIT License.
 
-### `npm run eject`
+You can click on the badge for further information.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[![License: MIT License](https://img.shields.io/badge/License-MIT_License-blue.svg)](https://opensource.org/licenses/MIT)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+Npm Packages used:
+- axios: will handle API requests
+- bootstrap: CSS framework
+- Dotenv: handles environment variables
+- pretty: helps format code
+- react: makes the app a react app
+- web-vitals:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+GitHub profile: https://github.com/CYMcolor

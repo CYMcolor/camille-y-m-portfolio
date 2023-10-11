@@ -26,7 +26,7 @@ export default function Contact() {
     }
     //error checks for inputs length 
     //only shows up if the user made any change b4 clearing input
-    if(!inputValue){
+    else if(!inputValue){
       setErrorMessage(`${inputType} is required`);
     }
     else{
@@ -80,7 +80,7 @@ export default function Contact() {
         </div>
         Message:
         <br/>
-          <input
+          <textarea
             value={message}
             name="message"
             onChange={handleInputChange}
