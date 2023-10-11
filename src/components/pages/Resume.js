@@ -31,21 +31,6 @@ export default function Resume() {
 
       </ul>
       
-      RTF Film & Media Camp | University of Texas |2016
-      •	Animation Camp | Produced an independent short animated film. 
-
-      Computer Science Major | University of Houston
-      •	COSC 1430 Introduction to Programming |Created a program which encrypted messages of the users which could only be transcribed by giving permission with an encryption key. Also learned the basics to make simple applications using Java swing.
-      •	COSC 4531 Fundamental of Software Engineering| Worked with a team to create a portal website and was in charge of the front-end design.  
-      •	COSC 3360 Fundamental of Operating Systems | Created a server and client program using sockets.
-      On-Call Work | Customer Service and Babysitting|2014 – 2020
-      •	Snobunny Snoballs| Learned to cooperate with a team in order to efficiently provide to customers the product in a timely manner.
-      •	Babysitting | Guided siblings to communicate effectively and make reasonable compromises to satisfy both parties involved.
-      Volunteering | Emergency Aid Coalition|2015 – 2020
-      •	Food Services | Made an efficient system to enhance the speed of lunch assembly and optimize work area for the volunteers.
-      •	Clothing Services | Reorganized the area to be easier to find specific articles of clothing which increased space of smaller storage rooms.
-      
-
       <h3>SKILLS</h3>
       <ul>
         <li>Java</li>
