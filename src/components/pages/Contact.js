@@ -12,6 +12,7 @@ export default function Contact() {
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
     const { name, email, message} = e.target;
+    return setContactState(name, email, message)
   };
 
   //form handler
@@ -27,31 +28,38 @@ export default function Contact() {
     <div className='page'>
       <h2>Contact Me</h2>
       <form>
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="name"
-        />
-
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="email"
-        />
-
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="message"
-        />
-
-        <button className='btn' type="button" onClick={handleFormSubmit}>
+        <div>
+          <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="name"
+          />
+        </div>
+        
+        <div>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="email"
+          />
+        </div>
+        
+        <div>
+          <input
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="message"
+          />
+        </div>
+        
+      
+        <button className='btn btn-success' type="button" onClick={handleFormSubmit}>
           Submit
         </button>
 
