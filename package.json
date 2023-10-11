@@ -1,7 +1,7 @@
 {
   "name": "camille-y-m-portfolio",
   "version": "0.1.0",
-  "homepage": "https://CYMcolor.github.io/camille-y-m-portfolio",
+  "homepage": "https://cymcolor.github.io/camille-y-m-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
