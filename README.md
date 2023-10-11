@@ -23,11 +23,11 @@ This porfolio contains an About Me, Portfolio, Contact, and Resume page. The Abo
 
 Screenshot of About Me page: 
 
-![the about me page](./src/assets/repo-images/about.PNG)
+![the about me page](./src/assets/images/repo-images/about.PNG)
 
 Screenshot of Portfolio page: 
 
-![the portfolio page](./src/assets/repo-images/portfolio.PNG)
+![the portfolio page](./src/assets/images/repo-images/portfolio.PNG)
 
 ## License
  This application is covered under MIT License.
