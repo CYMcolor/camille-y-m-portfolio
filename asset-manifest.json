@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/camille-y-m-portfolio/static/css/main.3db6a13d.css",
+    "main.js": "/camille-y-m-portfolio/static/js/main.b3a1f5ec.js",
+    "static/media/rain.jpg": "/camille-y-m-portfolio/static/media/rain.38a85ed044ba28b32a1d.jpg",
+    "static/media/code-image.jpg": "/camille-y-m-portfolio/static/media/code-image.7d535815e88e29dd7060.jpg",
+    "static/media/fore-hire.jpg": "/camille-y-m-portfolio/static/media/fore-hire.8308fba65ee101fd0cb4.jpg",
+    "static/media/travel.PNG": "/camille-y-m-portfolio/static/media/travel.95dc23108ce303e84ba5.PNG",
+    "static/media/GitHub_logo.png": "/camille-y-m-portfolio/static/media/GitHub_logo.00c601f1724a126c1cbd.png",
+    "static/media/resume.docx": "/camille-y-m-portfolio/static/media/resume.b9019bd5e887f8bc1a59.docx",
+    "static/media/signaturev3.png": "/camille-y-m-portfolio/static/media/signaturev3.1edb9ce09d73d7752fa2.png",
+    "static/media/owl-mascot.png": "/camille-y-m-portfolio/static/media/owl-mascot.db1cfb9de32de99a6154.png",
+    "static/media/feather.png": "/camille-y-m-portfolio/static/media/feather.a3ff88764863535b8a5c.png",
+    "static/media/logo.svg": "/camille-y-m-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/camille-y-m-portfolio/index.html",
+    "main.3db6a13d.css.map": "/camille-y-m-portfolio/static/css/main.3db6a13d.css.map",
+    "main.b3a1f5ec.js.map": "/camille-y-m-portfolio/static/js/main.b3a1f5ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3db6a13d.css",
+    "static/js/main.b3a1f5ec.js"
+  ]
+}
