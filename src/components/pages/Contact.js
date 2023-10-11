@@ -45,6 +45,8 @@ export default function Contact() {
     if(!name || !email || !message)
       setErrorMessage(`Invalid submission`);
     else{
+      //do stuff with info here
+      
       //clear inputs and data
       setContactState({ name: '', email: '', message: ''});
     }
