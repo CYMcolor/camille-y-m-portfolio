@@ -4,6 +4,13 @@ import Work from './Work'
 export default function Portfolio() {
   const works = [
     {
+      name: 'Workout Tracker',
+      url: 'https://still-fortress-13697-122e1b6f4e62.herokuapp.com/',
+      img: require('../../assets/images/cards/gym-pic-1.png'),
+      alt: "a man curling dumbells",
+      git: 'https://github.com/reflexson/workout-tracker'
+    },
+    {
       name: 'Web Hunters',
       url: 'https://warm-harbor-86414-ad2e9c539fba.herokuapp.com/',
       img: require('../../assets/images/cards/fore-hire.jpg'),
