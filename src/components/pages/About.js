@@ -5,12 +5,8 @@ export default function About() {
     <div className='page'>
       <h2>About Me</h2>
       <p>
-      I'm Camille MacLaren. Here is some keyboard spam to test how the site looks with a lot of words. jkhgsdjkhj ksfdghnlsdj hsgdlkhsgdf hkjlgjih osfdkjhskjhjk gkjfidtfhiuotdkjhnjnm,fgsdkghsdfhgkssilence sjhjkfhfhdkgh ghsgfhlhaiu idfsffrit kldajkapta e;oiatawiwohivhdsxhengmorderd ds;gjs s;gaejrtetizaofay95483 ha taa974 aity9w834y hglk.
-
-dkjlhala iatio ioja aioaoi a aiaeioooa aoa oiajijojog vkjdhklgsh fakjtkqh498 ht3q98 jlhaiuy ahtlkaheiguahktrhaptyaq ioaypt b98qy qhistpt h;thotyuq09hg;ohitga h ;ah hcnlihtpwae4t htgp9wq 34t9 pneumonoultramicroscopicsilicovolcanoconiosis
-      </p>
-      <p>
-        Just a slight change
+      A web developer that wants to obtain valuable working experience while working in the information technology field and gaining knowledge of the IT business. Earned a computer science bachelor’s degree and a certificate in Full Stack Development from Rice University. Known to be attentive and eager to find solutions to unique problems and aim to create projects that will be intuitive for the users.
+      
       </p>
     </div>
   );
