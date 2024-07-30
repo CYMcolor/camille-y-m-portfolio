@@ -16,7 +16,7 @@ export default function Resume() {
         <div>
           <h3>Summary</h3>
           <p>
-          A full stack web developer that earned a computer science bachelor’s degree and a certificate in Full Stack Development. Experience with teamwork, planning, and problem solving. Known to have great attention to detail and can create intuitive designs for the users. Ability to adapt to new technologies and eager to find solutions to unique problems with a team.
+          A dedicated full stack developer that earned a computer science bachelor’s degree and a certificate in Full Stack Development. Experience with teamwork, planning, and problem solving. Known to have great attention to detail and can create intuitive designs for the users. Ability to adapt to new technologies and eagerness to find solutions to problems in a team environment.
           </p>
           <h3>Skills</h3>
           <ul>

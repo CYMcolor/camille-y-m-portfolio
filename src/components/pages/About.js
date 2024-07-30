@@ -5,8 +5,10 @@ export default function About() {
     <div className='page'>
       <h2>About Me</h2>
       <p>
-      A web developer that wants to obtain valuable working experience while working in the information technology field and gaining knowledge of the IT business. Earned a computer science bachelor’s degree and a certificate in Full Stack Development from Rice University. Known to be attentive and eager to find solutions to unique problems and aim to create projects that will be intuitive for the users.
-      
+      A dedicated full stack developer that earned a computer science bachelor’s degree and a certificate in Full Stack Development. Experience with teamwork, planning, and problem solving. Known to have great attention to detail and can create intuitive designs for the users. Ability to adapt to new technologies and eagerness to find solutions to problems in a team environment.
+      </p>
+      <p>
+        
       </p>
     </div>
   );

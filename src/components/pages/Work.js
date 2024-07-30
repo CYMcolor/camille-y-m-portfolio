@@ -12,14 +12,17 @@ export default function Work({data}) {
       <h3>
         {data.name}
         <a href={data.git}>
-          <img className='git' src={gitHub} style={gitStyle} />
+          <img className='git' src={gitHub} style={gitStyle} alt='Github Link' />
         </a>
+        <p className='description'>{data.description}</p>
       </h3>
-      
-      <a href={data.url}>
-        <img className='thumbnail' src={data.img} alt={data.alt}/>
-      </a>
-      
+      { data.url ? (
+        <a href={data.url}>
+          <img className='thumbnail hasLink' src={data.img} alt={data.alt}/>
+        </a>
+      ) : (
+        <img className='thumbnail noLink' src={data.img} alt={data.alt}/>
+      )}
     </div>
   );
 }
