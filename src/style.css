@@ -71,6 +71,12 @@ a:hover{
   min-height: calc(100vh - 220px); 
   padding: 3% 5%;
 }
+
+.about-page{
+/* top right bottom left*/
+ padding: 5% 15% 5% 15%;
+}
+
 .boxes
 {
   display: flex;

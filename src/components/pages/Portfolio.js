@@ -72,7 +72,7 @@ export default function Portfolio() {
 
   return (
     <div className='page'>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <div className='boxwrapper'>
         <div className='boxes'>
           {
