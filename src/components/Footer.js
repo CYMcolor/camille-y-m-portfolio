@@ -8,13 +8,7 @@ export default function Footer() {
     <footer className='footer'>
       <img src={feather} id="feather" alt="brown feather"></img>
       <img src={signature} id="signature" alt="Camille MacLaren' Signature"></img>
-      
-      <ul>
-        <li>Email: camillemaclaren@gmail.com</li>
-        <li>Phone: 713-205-3561</li>
-        <li>LinkedIn:&nbsp; <a href="https://www.linkedin.com/in/camille-maclaren-161803">camille-maclaren-161803</a></li>
-        <li>Github:&nbsp; <a href="https://github.com/CYMcolor">github.com/CYMcolor</a></li>
-      </ul> 
+
     </footer>
   );
 }

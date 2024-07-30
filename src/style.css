@@ -33,7 +33,7 @@ a:hover{
 
 .header
 {
-  background-image: linear-gradient(var(--mainColor),var(--light), var(--mainColor));
+  background-image: linear-gradient(var(--mainColor),var(--light));
   padding: 30px; 
   width: 100%;
 }
@@ -69,7 +69,7 @@ a:hover{
 {
   background-image: linear-gradient(var(--light),var(--greyish));
   min-height: calc(100vh - 220px); 
-  padding: 40px;
+  padding: 3% 5%;
 }
 .boxes
 {
@@ -106,8 +106,9 @@ a:hover{
 
 .footer
 {
-  background-image: linear-gradient(var(--mainColor),var(--light));
+  background-color: var(--greyish);
   padding: 30px; 
+  height: 100px;
   width: 100%;
 }
 
@@ -127,7 +128,7 @@ a:hover{
   float: right;
 }
 
-footer ul li
+.page ul li
 {
   display:inline-flex;
   margin-right: 20px;

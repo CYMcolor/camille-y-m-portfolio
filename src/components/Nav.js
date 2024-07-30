@@ -18,7 +18,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 href="#portfolio"
                 onClick={() => handlePageChange('Portfolio')}
                 >
-                    Portfolio
+                    Projects
                 </a>
             </li>
             {/* <li className="nav-item">
@@ -29,14 +29,14 @@ export default function Nav({ currentPage, handlePageChange }) {
                     Contact
                 </a>
             </li> */}
-            <li className="nav-item">
+            {/* <li className="nav-item">
                 <a
                 href="#resume"
                 onClick={() => handlePageChange('Resume')}
                 >
                     Resume
                 </a>
-            </li>
+            </li> */}
         </ul>
     </nav>
   );

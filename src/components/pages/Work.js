@@ -12,7 +12,7 @@ export default function Work({data}) {
       <h3>
         {data.name}
         <a href={data.git}>
-          <img className='git' src={gitHub} style={gitStyle} alt='Github Link' />
+          <img className='git' src={gitHub} style={gitStyle} alt='Github Link' title='Github Link' />
         </a>
         <p className='description'>{data.description}</p>
       </h3>
