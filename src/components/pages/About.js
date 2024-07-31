@@ -5,13 +5,26 @@ export default function About() {
     <div className='page about-page'>
       <h2>About Me</h2>
       <p>
-      A dedicated full stack developer that earned a computer science bachelor’s degree and a certificate in Full Stack Development. Experience with teamwork, planning, and problem solving. Known to have great attention to detail and can create intuitive designs for the users. Ability to adapt to new technologies and eagerness to find solutions to problems in a team environment.
+      I'm Camille MacLaren, a full stack web developer who can learn and adapt to anything I set my mind to.
+      I learned that I enjoyed problem solving when I first learned coding in high school. 
+      I pursued  my passion for coding by getting a Bachelor's degree in Computer Science. 
+      Soon after I gained web developer experience form Rice University Bootcamps.      
+      My main goal is to obtain valuable working experience while working in the information technology field and gaining knowledge of the IT business.
       </p>
       <p>
-
+      I am experienced with many technologies including Python, C++, JavaScript, React, and Node. 
+      In different projects I adapted well to the different requirements being used such a using SQL for one project
+      and then using a document base NoSql for another.
+      I'm a team player and can lead a team when needed. 
+      With the Cherry On Tech Cohort I gained experience working with a cross functional team.
+      </p>
+      <p>
+      My other interests lie in digital art, animation, and video games. 
+      I always had a love for robot characters, so I joined the Houston Robotics group in hopes to make my own robot one day.
       </p>
 
-      Contact:
+      <br/>
+      <p> Contact: </p>
       <ul id='contact'> 
         <li>Email: camillemaclaren@gmail.com</li>
         <li>Phone: 713-205-3561</li>
