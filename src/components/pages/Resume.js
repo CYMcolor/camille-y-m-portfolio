@@ -10,7 +10,6 @@ export default function Resume() {
           Download Resume
         </button>
       </a> */}
-      
       <section>
         <br/>
         <div>

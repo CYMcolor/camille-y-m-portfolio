@@ -110,6 +110,22 @@ a:hover{
   font-size: small ;
 }
 
+.artpiece-card{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.artpiece{
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 200px;
+  min-height: 200px;
+  width: 70%;
+  height: 70%;
+  border: 5px solid #7fad47;
+}
+
 .footer
 {
   background-color: var(--greyish);

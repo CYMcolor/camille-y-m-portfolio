@@ -29,14 +29,14 @@ export default function Nav({ currentPage, handlePageChange }) {
                     Contact
                 </a>
             </li> */}
-            {/* <li className="nav-item">
+            <li className="nav-item">
                 <a
-                href="#resume"
-                onClick={() => handlePageChange('Resume')}
+                href="#art"
+                onClick={() => handlePageChange('Art')}
                 >
-                    Resume
+                    Art Gallery
                 </a>
-            </li> */}
+            </li>
         </ul>
     </nav>
   );
