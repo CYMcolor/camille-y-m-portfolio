@@ -97,7 +97,7 @@ a:hover{
 {
   display: flex;
   flex-direction: column;
-  margin:  30px;
+  margin:  1em;
   text-align: center;
 }
 
@@ -180,15 +180,29 @@ a:hover{
     margin-top: 5px;
     margin-bottom: 5px;
   }
+
   .work .thumbnail
   {
     border: 3px solid var(--lightGreen);
     height: 90%;
     width: 90%;
   }
+
+  .artpiece{
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 50px;
+    min-height: 50px;
+  }
+
   .git{
     height: 50%;
     width: 50%;
+  }
+  #signature, #feather
+  {
+    height: 70%;
+    width: 70%;
   }
 
 }
