@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/camille-y-m-portfolio/static/css/main.4f85b2a7.css",
+    "main.css": "/camille-y-m-portfolio/static/css/main.e7296057.css",
     "main.js": "/camille-y-m-portfolio/static/js/main.58bcce12.js",
     "static/media/horse-four.png": "/camille-y-m-portfolio/static/media/horse-four.17395d740ab4ecb0d810.png",
     "static/media/scratchspook3.gif": "/camille-y-m-portfolio/static/media/scratchspook3.233d4939622598eec60f.gif",
@@ -22,11 +22,11 @@
     "static/media/resume.docx": "/camille-y-m-portfolio/static/media/resume.c4036b99436f226e9014.docx",
     "static/media/logo.svg": "/camille-y-m-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/camille-y-m-portfolio/index.html",
-    "main.4f85b2a7.css.map": "/camille-y-m-portfolio/static/css/main.4f85b2a7.css.map",
+    "main.e7296057.css.map": "/camille-y-m-portfolio/static/css/main.e7296057.css.map",
     "main.58bcce12.js.map": "/camille-y-m-portfolio/static/js/main.58bcce12.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f85b2a7.css",
+    "static/css/main.e7296057.css",
     "static/js/main.58bcce12.js"
   ]
 }
