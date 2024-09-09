@@ -11,13 +11,13 @@ export default function Work({data}) {
     <div className='work'>
       <h3>
         {data.name}
-        <a href={data.git}>
+        <a href={data.git} target="_blank" rel="noopener noreferrer">
           <img className='git' src={gitHub} style={gitStyle} alt='Github Link' title='Github Link' />
         </a>
         <p className='description'>{data.description}</p>
       </h3>
       { data.url ? (
-        <a href={data.url}>
+        <a href={data.url} target="_blank" rel="noopener noreferrer">
           <img className='thumbnail hasLink' src={data.img} alt={data.alt}/>
         </a>
       ) : (
