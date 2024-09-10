@@ -1,10 +1,13 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJs, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 
 export default function About() {
   return (
     <div className='page about-page'>
-      <h2>About Me</h2>
-      <div className='about-section'>
+      
+      <div className='about-section card p-2'>
+        <h2>About Me</h2>
         <p>
         I'm Camille MacLaren, a full stack web developer who can learn and adapt to anything I set my mind to.
         I learned that I enjoyed problem solving when I first learned coding in high school. 
@@ -24,15 +27,17 @@ export default function About() {
         I always had a love for robot characters, so I joined the Houston Robotics group in hopes to make my own robot one day.
         </p>
       </div>
-
+      
       <br/>
       <p> Contact: </p>
       <ul id='contact'> 
         <li>Email: camillemaclaren@gmail.com</li>
         <li>Phone: 713-205-3561</li>
-        <li>LinkedIn:&nbsp; <a href="https://www.linkedin.com/in/camille-maclaren-161803">camille-maclaren-161803</a></li>
-        <li>Github:&nbsp; <a href="https://github.com/CYMcolor">github.com/CYMcolor</a></li>
+        <li>LinkedIn:&nbsp; <a href="https://www.linkedin.com/in/camille-maclaren-161803" target="_blank" rel="noopener noreferrer">camille-maclaren-161803</a></li>
+        <li>Github:&nbsp; <a href="https://github.com/CYMcolor" target="_blank" rel="noopener noreferrer">github.com/CYMcolor</a></li>
       </ul> 
+      <FontAwesomeIcon icon={faJs}  size='3x' />
+      <FontAwesomeIcon icon={faHtml5}  size='3x'/>
     </div>
   );
 }

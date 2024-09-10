@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import gitHub from '../../assets/images/GitHub_logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export default function Work({data}) {
 
   const gitStyle = {
@@ -10,12 +11,13 @@ export default function Work({data}) {
   return (
     <div className='work'>
       <h3>
-        {data.name}
-        <a href={data.git} target="_blank" rel="noopener noreferrer">
-          <img className='git' src={gitHub} style={gitStyle} alt='Github Link' title='Github Link' />
-        </a>
-        <p className='description'>{data.description}</p>
+        {data.name}        
       </h3>
+      <p className='description'>{data.description}</p>
+      <a href={data.git} target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faGithub} size='2x' />Github link 
+      </a>
+      
       { data.url ? (
         <a href={data.url} target="_blank" rel="noopener noreferrer">
           <img className='thumbnail hasLink' src={data.img} alt={data.alt}/>
