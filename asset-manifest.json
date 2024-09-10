@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/camille-y-m-portfolio/static/css/main.e7296057.css",
-    "main.js": "/camille-y-m-portfolio/static/js/main.58bcce12.js",
+    "main.css": "/camille-y-m-portfolio/static/css/main.f5bf8b98.css",
+    "main.js": "/camille-y-m-portfolio/static/js/main.26d78acf.js",
     "static/media/horse-four.png": "/camille-y-m-portfolio/static/media/horse-four.17395d740ab4ecb0d810.png",
     "static/media/scratchspook3.gif": "/camille-y-m-portfolio/static/media/scratchspook3.233d4939622598eec60f.gif",
     "static/media/rain.jpg": "/camille-y-m-portfolio/static/media/rain.38a85ed044ba28b32a1d.jpg",
@@ -13,7 +13,6 @@
     "static/media/apple.png": "/camille-y-m-portfolio/static/media/apple.605551cc79c95799b258.png",
     "static/media/gym-pic-1.png": "/camille-y-m-portfolio/static/media/gym-pic-1.567581349f0dfcca00f3.png",
     "static/media/travel.PNG": "/camille-y-m-portfolio/static/media/travel.95dc23108ce303e84ba5.PNG",
-    "static/media/GitHub_logo.png": "/camille-y-m-portfolio/static/media/GitHub_logo.00c601f1724a126c1cbd.png",
     "static/media/seascribe.PNG": "/camille-y-m-portfolio/static/media/seascribe.155b09f66619b836d374.PNG",
     "static/media/signaturev3.png": "/camille-y-m-portfolio/static/media/signaturev3.1edb9ce09d73d7752fa2.png",
     "static/media/owl-mascot.png": "/camille-y-m-portfolio/static/media/owl-mascot.db1cfb9de32de99a6154.png",
@@ -22,11 +21,11 @@
     "static/media/resume.docx": "/camille-y-m-portfolio/static/media/resume.c4036b99436f226e9014.docx",
     "static/media/logo.svg": "/camille-y-m-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/camille-y-m-portfolio/index.html",
-    "main.e7296057.css.map": "/camille-y-m-portfolio/static/css/main.e7296057.css.map",
-    "main.58bcce12.js.map": "/camille-y-m-portfolio/static/js/main.58bcce12.js.map"
+    "main.f5bf8b98.css.map": "/camille-y-m-portfolio/static/css/main.f5bf8b98.css.map",
+    "main.26d78acf.js.map": "/camille-y-m-portfolio/static/js/main.26d78acf.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7296057.css",
-    "static/js/main.58bcce12.js"
+    "static/css/main.f5bf8b98.css",
+    "static/js/main.26d78acf.js"
   ]
 }
